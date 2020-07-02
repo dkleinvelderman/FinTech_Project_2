@@ -1,5 +1,4 @@
 *Project 2, Team 5 - Evan Paliotta, Francisco Lopez, Daniel Klein Velderman*
-
 Crypto Caroussel
 ---
 
@@ -7,21 +6,36 @@ Crypto Caroussel
 *   Investing in different types of crypto
 *   Types meaning 'use-cases'
 *   Payments, security, utility
+*   Plug our most accurate model into a trading algo
 ### Crypto Investment Strategy can be based on:  
 
-1.   the fundamentals of various crypto projects (e.g. white paper, activity and experience of team, use case, what problem does it solve, is there a working product, listed on exchanges, partnerships, trading volume, market cap)
+1.   the fundamentals of various crypto projects (e.g. white paper, activity and experience of team, use case, what problem does it solve, is there a working product, listed on exchanges, partnerships, trading volume, market cap, supply) https://coinmarketcap.com/
 2.   Sentiment, attention and acitivty of the crypto project in (digital) media (reddit, discord, telegram, CNBC)
 3. performance to date of single crypto projects or groups of projects based on use-case and/or fundamentals  
 > Ideally one would pursue a combination of all of the above to come to a solid investment strategy. Our thoughts are that we choose 3 crypto use-cases that appeal to us and we believe are viable going forward. For each use-case we select two crypto-projects based on the fundamentals (desk research) and the sentiment (NLP?). Subsequently (simultaneously?) we apply Machine Learning to the concerning 6 crypto currencies to determine future potential financial performance based on historical (API) data.
 
-*Suggestion Daniel*:
 
 | Payment  | Smart Contracts  | Supply Chain  |
 |---|---|---|
-| Digibyte  | Ethereum   | VeChain  |
-| Nano | NEO  | OriginTrail  |
-| Vertcoin | Cardano | Tael/Wabi  
+| Digibyte  | Zilliqa   | VeChain  |
+| Nano | NEO  | Waltonchain  |
+| Monero | Cardano | Tael/Wabi  
+
 </b>
+
+> *Took out BTC & ETH since you anyway must have some of those at all times (same goes for VTC & ENJ, no shill:P)*
+</b>
+
+Ticker List:
+*   Digibyte: DGB
+*   Nano: NANO
+*   Monero: XMR
+*   Zilliqa: ZIL
+*   NEO: NEO
+*   Cardano: ADA
+*   VeChain: VET
+*   Waltonchain: WTC
+*   Tael: WABI
 
 >>  Depending on outcome, we select 2 or 3 crypto currencies to trade and plot them in our algo trader utilizing technical analyses such as Bollinger Bands, RSI, MACD, Fibonacci  (https://www.investopedia.com/technical-analysis-basic-education-4689655)
 
