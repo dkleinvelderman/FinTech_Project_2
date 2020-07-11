@@ -1,6 +1,8 @@
 *Project 2, Team 7 - Evan Paliotta, Francisco Lopez, Daniel Klein Velderman*
 
 Crypto Caroussel
+
+![image](images/carousel.jpg)
 ---
 ## Proposal
 Our project is to collect altcoin data (sans BTC & ETH) from the Binance API to create and compare a short-term algorithmic trading strategy with a medium-term buy and hold strategy. In reference to our short term strategy, we will utilize (TECHNICAL INDICATOR/s) while implementing regression and natural language processing (Reddit API) in our buy and hold strategy. Then we'll compare the returns of the models and ultimately determine which strategy is more profitable to implement.
