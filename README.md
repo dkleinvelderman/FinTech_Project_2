@@ -4,14 +4,10 @@ Crypto Caroussel
 ---
 ![Carousel](./images/Carousel.JPG)
 
-## Proposal
-Our project is to collect altcoin data (sans BTC & ETH) from the Binance API to create and compare a short-term algorithmic trading strategy with a medium-term buy and hold strategy. In reference to our short term strategy, we will utilize (TECHNICAL INDICATOR/s) while implementing regression and natural language processing (Reddit API) in our buy and hold strategy. Then we'll compare the returns of the models and ultimately determine which strategy is more profitable to implement.
+## Summary
+Our project is to create and compare a short-term algorithmic trading strategy with a medium-term buy and hold strategy. In reference to our short term strategy, we utilize the RSI and MACD while implementing regression and natural language processing in our buy and hold strategy. The latter strategy uses daily BTC exchange rate data and focuses on nine currencies with three distinct use cases.  We gathered data from the Binance API for both strategies and the Reddit API for NLP. Finally we compared the returns of the models and ultimately determined which strategy is more profitable to implement.
+TL;DR- Using ML and NLP to filter through altcoins, can we make more money with a short term trading strategy or a buy and hold strategy.
 
-## Brainstorm
-*   Investing in different types of crypto
-*   Types meaning 'use-cases'
-*   Payments, security, utility
-*   Plug our most accurate model into a trading algo
 ### Crypto Investment Strategy can be based on:  
 
 1.   the fundamentals of various crypto projects (e.g. white paper, activity and experience of team, use case, what problem does it solve, is there a working product, listed on exchanges, partnerships, trading volume, market cap, supply) https://coinmarketcap.com/
@@ -22,17 +18,12 @@ Our project is to collect altcoin data (sans BTC & ETH) from the Binance API to 
 
 | Payment  | Smart Contracts  | Supply Chain  |
 |---|---|---|
-| Digibyte  | Zilliqa   | VeChain  |
+| Chainlink  | Zilliqa   | VeChain  |
 | Nano | NEO  | Waltonchain  |
 | Monero | Cardano | Tael/Wabi  
 
-</b>
-
-> *Took out BTC & ETH since you anyway must have some of those at all times (same goes for VTC & ENJ, no shill:P)*
-</b>
-
 Ticker List:
-*   Digibyte: DGB
+*   Chainlink: LINK
 *   Nano: NANO
 *   Monero: XMR
 *   Zilliqa: ZIL
