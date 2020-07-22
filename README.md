@@ -4,7 +4,7 @@ Crypto Caroussel
 ---
 ![Carousel](./images/Carousel.JPG)
 
-<<<<<<< HEAD
+
 ## Summary
 Our project is to create and compare a short-term algorithmic trading strategy with a medium-term buy and hold strategy. In reference to our short term strategy, we utilize the RSI and MACD while implementing regression and natural language processing in our buy and hold strategy. The latter strategy uses daily BTC exchange rate data and focuses on nine currencies with three distinct use cases.  We gathered data from the Binance API for both strategies and the Reddit API for NLP. Finally we compared the returns of the models and ultimately determined which strategy is more profitable to implement.
 TL;DR- Using ML and NLP to filter through altcoins, can we make more money with a short term trading strategy or a buy and hold strategy.
@@ -63,6 +63,4 @@ Potential Issues:
 *   Using multiple APIs/datasets may pose an issue when it comes to aligning the variables (this may mean we need to scrap the types of crypto idea since not all types will be on the same exchange)---in other words, just because a coin is trading doesn't mean it will be available to an API
 *   The only ML algo model we did (decision tree algo trading--15-3) has binary outputs for the trees and uses one ticker while we're trying to have multiple outputs and multiple tickers.  This will be hard to reoncile without running tons of code
 =======
-## Proposal
-Our project is to create and compare a short-term algorithmic trading strategy with a medium-term buy and hold strategy. In reference to our short term strategy, we utilize the RSI and MACD while implementing regression and natural language processing in our buy and hold strategy. The latter strategy uses daily BTC exchange rate data and focuses on nine currencies with three distinct use cases.  We gathered data from the Binance API for both strategies and the Reddit API for NLP. Finally we compared the returns of the models and ultimately determined which strategy is more profitable to implement.
->>>>>>> be944ee45f8c681aa7f6c706ecb2caad00c3d601
+
